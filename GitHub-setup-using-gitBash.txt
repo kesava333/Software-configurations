@@ -1,0 +1,43 @@
+1. First Create working diractory
+
+mkdir xxxx
+
+2. register the user
+a. git config --global user.name "Enter your user name @@Not specific"
+b. git config --global user.email "enter your github registered email id"
+
+3. check wheather everything is good
+
+git config --global user.name (if u get a output with registered name then u r good)
+
+4. initialize the git repo --- very important
+
+git init
+
+5. create your file and work on them. once done use following commands
+
+git add "file name" -- this allows us to add the current file to staging area
+
+git commit -m "enter a message which has some meaning with your current commit"
+
+6. git status
+
+if everything is good, it will show nothing to commit
+
+7. add you git repo to git bash
+
+git remote set-url origin "enter the repo https address"
+
+8. check wheather the repo is added or not 
+
+git remote -v
+
+9. push the changes to master or child branch
+
+git push origin master
+
+*** remember -- when you are working in an organizational environment its must you always create child branch and do your work within that branch and push the changes to master. there will be a manager to check you merge. usually, u create pull request and the manager will review the changes and if everything looks good, then he will approve your work.
+
+
+
+                      *** Thank You ****
